@@ -1,0 +1,28 @@
+@frontface{
+front-family:"old ";
+src: url("");
+
+}
+h1{
+color: blue;
+background-color: brown;
+letter-spacing:20px;
+word-spacing: 40px;
+}
+p{
+font-family: :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-indent:100px;
+text-align:center;
+}
+h2{
+text-decoration: overline;
+color: blueviolet;
+}
+h3{
+    color: aqua
+    text-decoration: line-through;
+}
+h4{
+text-decoration: underline;
+color: aquamarine;
+}
