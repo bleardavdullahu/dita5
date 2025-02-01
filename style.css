@@ -38,7 +38,7 @@ li ul li{
     float: none;
 }
 li ul li a{
-    padding 10px 16px;
+    padding: 10px 16px;
 }
 li ul li a:hover{
     background-color: beige;
