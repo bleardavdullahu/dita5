@@ -33,3 +33,35 @@ background-position: 0 0;
     display: inline-block;
     background-position: -500px 0;
     }
+
+    a[href="https://shkolladigjitale.com/"]{
+        color: blue;
+    }
+
+    p[class*="ps"]{
+color: aqua;
+padding: 20px;
+background-color: blue;
+    }
+
+    div[id~="ds"]{
+background: green;
+color:blueviolet;
+padding: 20px;
+}
+img[title^="blue"]{
+    border: 2px solid blue;
+}
+
+h1[class |="heading"]{
+    background: purple;
+    color: white;
+    padding: 20px;
+}
+
+input[placeholder $="name"]{
+    border: 2px solid red;
+}
+input[readonly]{
+border: 2px solid green;
+}
