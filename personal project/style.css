@@ -3,7 +3,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #section-1{
-    background-color: yellowgreen;
+    background-color: blueviolet;
     height: 600px;
 }
 .container{
@@ -22,15 +22,16 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: black;
+    color: yellow;
 }
 nav ul li.active{
-    background-color: lightgray;
+    background-color: green;
     border-radius: 5px;
 }
 .main-heading{
     margin-top: 148px;
     text-align: center;
+    
 }
 .main-heading h1{
 color: aqua;
