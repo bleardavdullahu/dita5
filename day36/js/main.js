@@ -42,6 +42,16 @@ $('#btn4').click(function(){
 $('#btn3').click(function(){
     $('.hidden').show();
 })
+
+
+$('#square').click(function(){
+    $('#square').animate({
+        'left': '+=50px',
+        'opacity': 0.25,
+        'fontSize': '50px'
+    })
+})
+
 /*
  click
  keydown
@@ -53,3 +63,9 @@ $('#btn3').click(function(){
 */
 
 
+$('#sort').sortable();
+
+
+$(function(){
+    $("#accordion").accordion();
+});
